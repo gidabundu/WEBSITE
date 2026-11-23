@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore tasting menus, the Chef's Bar, private dining, and thoughtful celebrations at Noir Kitchen.">
+  <meta name="theme-color" content="#11100e">
+  <title>Dining Experiences | Noir Kitchen, Paris</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/services.css">
+  <script src="js/script.js" defer></script>
+  <script src="js/services.js" defer></script>
+</head>
+<body data-page="inner">
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Noir Kitchen home">NOIR <span>KITCHEN</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-menu"><span></span><span></span><span></span></button>
+      <div class="nav-menu" id="primary-menu">
+        <a class="nav-link" href="index.html#home">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="index.html#experience">Experience</a>
+        <a class="nav-link" href="index.html#journal">Journal</a>
+        <a class="nav-link" href="index.html#contact">Contact</a>
+        <a class="button button-small nav-reserve" href="index.html#contact">Reserve a table</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="page-hero services-hero">
+      <div class="page-hero-content reveal"><p class="eyebrow">A PLACE AT OUR TABLE</p><h1>Made for<br><em>the moment.</em></h1><p>Settle in for the evening that feels right to you.</p><button class="button explore-button" type="button" data-scroll-to="service-list">Explore our experiences</button></div>
+      <div class="floating-emoji" aria-hidden="true">✨</div>
+      <div class="floating-emoji floating-emoji-two" aria-hidden="true">🥂</div>
+    </section>
+    <section class="section service-list" id="service-list">
+      <div class="section-heading reveal"><p class="eyebrow">OUR EXPERIENCES</p><h2>Find your <em>kind of evening.</em></h2></div>
+      <article class="service-detail reveal" id="tasting">
+        <div class="service-icon" aria-hidden="true">🥂</div><div class="service-content"><p class="eyebrow">THE SEASONAL SIGNATURE</p><h3>Tasting Menu</h3><p>A thoughtful procession of the season's best: ingredients from our trusted growers, guided by Chef Éric's instinct and imagination.</p><ul><li>Five-course seasonal menu</li><li>Optional wine pairing selected by our sommelier</li><li>Vegetarian menu available with advance notice</li></ul><p class="price">€185 <span>per guest · wine pairing €95</span></p><a class="button button-small" href="index.html#contact">Reserve this experience</a></div>
+      </article>
+      <article class="service-detail reverse reveal" id="chefs-bar">
+        <div class="service-icon" aria-hidden="true">🔥</div><div class="service-content"><p class="eyebrow">CLOSE TO THE CRAFT</p><h3>Chef's Bar</h3><p>Take a seat at the kitchen counter, where the evening unfolds right in front of you. A personal, lively look at the care behind every plate.</p><ul><li>Chef-led tasting experience</li><li>Front-row view of the kitchen</li><li>Limited seats for a more personal evening</li></ul><p class="price">€245 <span>per guest</span></p><a class="button button-small" href="index.html#contact">Reserve this experience</a></div>
+      </article>
+      <article class="service-detail reveal" id="private-dining">
+        <div class="service-icon" aria-hidden="true">🕯️</div><div class="service-content"><p class="eyebrow">A ROOM OF YOUR OWN</p><h3>Private Dining</h3><p>Gather your favourite people around a table set just for you. Our private dining room brings the warmth of Noir Kitchen to your own occasion.</p><ul><li>Intimate private room for up to 12 guests</li><li>Menus shaped around your gathering</li><li>Dedicated service from our team</li></ul><p class="price">From €1,200 <span>per party</span></p><a class="button button-small" href="index.html#contact">Plan your gathering</a></div>
+      </article>
+    </section>
+    <section class="section extras-section">
+      <div class="section-heading reveal"><p class="eyebrow">A LITTLE EXTRA</p><h2>Thoughtful touches,<br><em>beautifully shared.</em></h2></div>
+      <div class="card-grid">
+        <article class="experience-card reveal"><div class="card-emoji" aria-hidden="true">🎁</div><h3>Gift an evening</h3><p>Share the pleasure of a place at our table with a Noir Kitchen gift card.</p><a class="text-link" href="mailto:reservations@noirkitchen.com">Ask about gift cards <span aria-hidden="true">↗</span></a></article>
+        <article class="experience-card reveal"><div class="card-emoji" aria-hidden="true">🍷</div><h3>Wine pairing</h3><p>Let our sommelier find the right glass for each moment of the menu.</p><p class="price">From €95 <span>per guest</span></p></article>
+        <article class="experience-card reveal"><div class="card-emoji" aria-hidden="true">🌱</div><h3>Dietary care</h3><p>Our kitchen can accommodate many dietary needs with advance notice when booking.</p><a class="text-link" href="index.html#contact">Share your requirements <span aria-hidden="true">↗</span></a></article>
+      </div>
+    </section>
+    <section class="section faq-section" id="faq">
+      <div class="section-grid faq-grid">
+        <div class="section-heading reveal"><p class="eyebrow">BEFORE YOU ARRIVE</p><h2>A few useful <em>details.</em></h2></div>
+        <div class="faq-list reveal">
+          <div class="faq-item"><button class="faq-question" id="service-faq-question-1" type="button" aria-expanded="false" aria-controls="service-faq-answer-1">Can you accommodate dietary requirements?<span aria-hidden="true">+</span></button><div class="faq-answer" id="service-faq-answer-1" hidden><p>Please let us know when you book. With advance notice, our team can accommodate many dietary requirements.</p></div></div>
+          <div class="faq-item"><button class="faq-question" id="service-faq-question-2" type="button" aria-expanded="false" aria-controls="service-faq-answer-2">How do I arrange a private event?<span aria-hidden="true">+</span></button><div class="faq-answer" id="service-faq-answer-2" hidden><p>Send us a reservation request with your preferred date and group size. Our team will be in touch to discuss the details.</p></div></div>
+        </div>
+      </div>
+    </section>
+    <section class="about-cta"><p class="eyebrow">WE'LL SAVE YOU A SEAT</p><h2>Let's make it<br><em>a lovely evening.</em></h2><a class="button" href="index.html#contact">Request a reservation</a></section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-brand-block"><a class="brand" href="index.html">NOIR <span>KITCHEN</span></a><p>A Parisian table, set with intention.</p></div>
+      <div class="footer-column"><h2>EXPLORE</h2><a href="index.html#story">Our story</a><a href="index.html#experience">Experiences</a><a href="index.html#journal">Journal</a></div>
+      <div class="footer-column"><h2>VISIT</h2><a href="index.html#contact">Find us</a><a href="index.html#contact">Reservations</a><a href="index.html#faq">FAQs</a></div>
+      <div class="footer-column"><h2>FOLLOW ALONG</h2><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram ↗</a><a href="mailto:reservations@noirkitchen.com">Get in touch ↗</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Noir Kitchen. All rights reserved.</span><span>Thoughtfully made in Paris.</span></div>
+  </footer>
+</body>
+</html>

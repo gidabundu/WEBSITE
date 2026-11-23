@@ -1,0 +1,24 @@
+.services-hero { min-height: 650px; }
+.services-hero .button { margin-top: 18px; }
+.floating-emoji { position: absolute; top: 33%; right: 20%; font-size: 2rem; animation: emojiFloat 5s ease-in-out infinite; }
+.floating-emoji-two { top: 61%; right: 12%; animation-delay: -2.5s; font-size: 1.65rem; }
+.service-list { background: var(--color-bg-soft); }
+.service-detail { display: grid; grid-template-columns: .7fr 1.3fr; gap: 65px; align-items: center; max-width: 940px; margin: 0 auto; padding: 58px 25px; border-top: 1px solid var(--color-border); scroll-margin-top: 100px; }
+.service-detail:last-child { border-bottom: 1px solid var(--color-border); }
+.service-detail.reverse .service-icon { order: 2; }
+.service-icon { display: grid; min-height: 230px; place-items: center; border: 1px solid var(--color-border); background: radial-gradient(ellipse, #3b3024, #201b16 70%); font-size: 4rem; }
+.service-content h3 { font-size: 2.3rem; }
+.service-content > p:not(.eyebrow, .price) { color: var(--color-muted); }
+.service-content ul { padding-left: 20px; color: var(--color-muted); font-size: .85rem; }
+.service-content li { padding: 4px 0; }
+.service-content li::marker { color: var(--color-gold); }
+.service-content .price { margin-top: 22px; }
+.service-content .button { margin-top: 4px; }
+.extras-section { background: #171512; }
+@media (max-width: 640px) {
+  .floating-emoji { top: 20%; right: 11%; }
+  .floating-emoji-two { top: 75%; right: 10%; }
+  .service-detail { grid-template-columns: 1fr; gap: 28px; padding: 40px 0; }
+  .service-detail.reverse .service-icon { order: 0; }
+  .service-icon { min-height: 170px; }
+}
