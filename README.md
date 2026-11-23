@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Noir Kitchen
 
 A static, multi-page restaurant website for a modern French dining room in Paris. It uses plain HTML, CSS, and vanilla JavaScript; there is no framework, build step, or package installation.
@@ -35,3 +36,6 @@ Alternatively, open the folder in Visual Studio Code and use the Live Server ext
 ## Hero image
 
 The hero is styled to fall back to a dark gradient if `assets/hero.png` is absent. See [assets/README.md](assets/README.md) for the expected image dimensions and direction.
+=======
+# WEBSITE
+>>>>>>> b24cf0614a16b841e77a97b0731ab4b26681ede1
